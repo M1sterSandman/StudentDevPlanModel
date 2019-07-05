@@ -1,27 +1,39 @@
 package DevPlanModel;
 
 import DevPlanModel.Knowledge.Knowledge;
+import DevPlanModel.Schedule.Schedule;
 
 public class Student {
 
     private String name;
     private Knowledge knowledge;
-    private DevelopmentPlan devPlan;
+    private double learningRatio;
+    private Schedule schedule;
 
-    public Student(String name, Knowledge knowledge){
+    public Student(String name, Knowledge knowledge, double learningRatio){
         this.name = name;
         this.knowledge = knowledge;
+        this.learningRatio = learningRatio;
     }
 
-    public void setDevPlan(DevelopmentPlan devPlan){
-        this.devPlan=devPlan;
+
+
+    public void addSchedule(Schedule schedule){
+        this.schedule = schedule;
     }
 
-    public DevelopmentPlan getDevPlan(){
-        return this.devPlan;
+    public void useDevPlan(){
+        //some check
+        // addKnowledge();
     }
 
-    public void setKnowledge(Knowledge knowledge) {
-        this.knowledge = knowledge;
+
+    public Knowledge getKnowledge(){
+        return this.knowledge;
+    }
+
+    public void addKnowledge(Knowledge knowledge){
+        this.knowledge.practicalKnowledge += knowledge.practicalKnowledge;
+        this.knowledge.theoreticalKnowledge += knowledge.practicalKnowledge;
     }
 }
