@@ -3,12 +3,17 @@ package DevPlanModel;
 import DevPlanModel.Knowledge.Knowledge;
 import DevPlanModel.Schedule.Schedule;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Student {
 
     private String name;
     private Knowledge knowledge;
     private double learningRatio;
     private Schedule schedule;
+    private List<Schedule> schedules = new ArrayList<>();
+    private DevelopmentPlan devPlan;
 
     public Student(String name, Knowledge knowledge, double learningRatio){
         this.name = name;
@@ -19,7 +24,15 @@ public class Student {
 
 
     public void addSchedule(Schedule schedule){
-        this.schedule = schedule;
+        schedules.add(schedule);
+    }
+
+    public List<Schedule> getSchedules(){
+        return schedules;
+    }
+
+    public void addDevPlan(DevelopmentPlan devPlan){
+        this.devPlan=devPlan;
     }
 
     public void useDevPlan(){
@@ -34,6 +47,6 @@ public class Student {
 
     public void addKnowledge(Knowledge knowledge){
         this.knowledge.practicalKnowledge += knowledge.practicalKnowledge;
-        this.knowledge.theoreticalKnowledge += knowledge.practicalKnowledge;
+        this.knowledge.theoreticalKnowledge += knowledge.theoreticalKnowledge;
     }
 }

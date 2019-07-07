@@ -15,6 +15,6 @@ public class Period implements Schedule {
 
     @Override
     public boolean isActive(LocalDate date) {
-        return !(date.isBefore(firstDay) || date.isAfter(lastDay));
+        return !(date.isBefore(firstDay) || date.isAfter(lastDay)) || date.isAfter(lastDay);
     }
 }

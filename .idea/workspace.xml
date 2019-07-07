@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c6aede-d2be-41ca-bbbe-0298b7bffe49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Institution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Institution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Internship.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Knowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Knowledge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Meetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Meetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/SelfEducation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/SelfEducation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Knowledge/University.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Schedule/LastThursdayInMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Schedule/LastThursdayInMonths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Schedule/Negation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Schedule/Negation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/DevelopmentPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/DevelopmentPlan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Schedule/Weekend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Schedule/Weekend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevPlanModel/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevPlanModel/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/MainFunctionalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MainFunctionalityTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/MainFunctionalityTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+            <state relative-caret-position="241">
+              <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,47 +39,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="224">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Knowledge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-              <folding>
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,64 +55,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DevPlanModel/DevelopmentPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state>
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Meetup.java">
+        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/SelfEducation.java">
+        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-              <folding>
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Institution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="337">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,21 +129,21 @@
         <option value="$PROJECT_DIR$/src/Knowledge/KnowledgeSource.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/KnowledgeSource.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Schedule/Schedule.java" />
-        <option value="$PROJECT_DIR$/src/DevPlanModel/DevelopmentPlan.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/InstitutionType.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Internship.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/University.java" />
-        <option value="$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Schedule/Weekend.java" />
-        <option value="$PROJECT_DIR$/src/DevPlanModel/Schedule/LastThursdayInMonths.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Schedule/Negation.java" />
-        <option value="$PROJECT_DIR$/src/DevPlanModel/Activity.java" />
         <option value="$PROJECT_DIR$/test/MainFunctionalityTest.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Knowledge.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Meetup.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/SelfEducation.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Knowledge/Institution.java" />
+        <option value="$PROJECT_DIR$/src/DevPlanModel/Schedule/LastThursdayInMonths.java" />
         <option value="$PROJECT_DIR$/src/DevPlanModel/Student.java" />
+        <option value="$PROJECT_DIR$/src/DevPlanModel/DevelopmentPlan.java" />
+        <option value="$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java" />
+        <option value="$PROJECT_DIR$/src/DevPlanModel/Activity.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -243,7 +166,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +207,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +226,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -420,18 +343,18 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18154311" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.17230274" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.4363929" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3478261" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -474,48 +397,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Knowledge/KnowledgeSource_A.java" />
     <entry file="file://$PROJECT_DIR$/src/StudentT.java" />
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Internship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/KnowledgeSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/University.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Internship.java" />
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/University.java" />
     <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/InstitutionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/LastThursdayInMonths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,70 +420,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Activity.java">
+    <entry file="file://$PROJECT_DIR$/test/MainFunctionalityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/SelfEducation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Meetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Institution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,34 +437,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/MainFunctionalityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/KnowledgeSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/LastThursdayInMonths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Meetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/SelfEducation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Knowledge/Institution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DevPlanModel/DevelopmentPlan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state>
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Schedule/Period.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevPlanModel/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="241">
+          <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
